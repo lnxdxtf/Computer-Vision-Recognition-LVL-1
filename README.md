@@ -1,4 +1,4 @@
-<h1>Computer Vision Recognition</h1>
+<h1>Computer Vision Recognition LVL 1</h1>
 <h2>
 
 > Status: Developing ⚠️
@@ -55,3 +55,18 @@ Technologies Used:
 
 
 <h1>⚠️CODE COMMENTED ON PORTUGUESE⚠️</h1>
+
+
+<h1>💻 How to Run: </h1>
+
+<h4>
+
+>Open the folder my_hands_detector (Computer_Vision_Recognition_LVL1/my_hands_detector)
+
+>Run DetectHand_01.py
+
+>Set your Video Capture; Set 0 if you only have a webcam; Try 1+ if you have more than one
+
+>Just Run Now
+
+</h4>
