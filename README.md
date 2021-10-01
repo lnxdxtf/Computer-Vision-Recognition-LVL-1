@@ -2,7 +2,7 @@
 <h2>
 
 > Status: Developing ⚠️
-<img src = "images/develop.gif">
+<img src = "Images/develop.gif">
 
 </h2>
 
@@ -49,7 +49,7 @@ Technologies Used:
 
 <h2>Preview Code Running</h2>
 
-<img src = "images/detecçao_maogif.gif">
+<img src = "Images/detecçao_maogif.gif">
 
 
 
