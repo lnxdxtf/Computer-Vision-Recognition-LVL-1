@@ -2,7 +2,7 @@
 <h2>
 
 > Status: Developing ⚠️
-<img src = "images/develop.gif">
+<img src = "Images/develop.gif">
 
 </h2>
 
@@ -49,25 +49,26 @@ Technologies Used:
 
 <h2>Preview Code Running</h2>
 
-<img src = "images/detecçao_maogif.gif">
+<img src = "Images/detecçao_maogif.gif">
 
 
 
 
-<h1>⚠️CODE COMMENTED ON PORTUGUESE⚠️</h1>
+<h1>⚠️CODE COMMENTED ON PORTUGUESE⚠️
 
+>
 
-<h1>💻 How to Run: </h1>
+💻 How to Run: </h1>
 
-<h4>
+<h3>
 
->Open the folder hands_github (Computer_Vision_Recognition_LVL1/hands_github)
+>Open the folder hands_github 
 
->Run DetectHand_01.py
+>Run DetectHand_01 .py
 
 >Set your Video Capture; Set 0 if you only have a webcam; Try 1+ if you have more than one
 
 >Just Run Now
 
-</h4>
+</h3>
 
