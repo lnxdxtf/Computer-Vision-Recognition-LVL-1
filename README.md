@@ -1,8 +1,9 @@
-<h1>CVpy_Arduino</h1>
+<h1>Computer Vision Recognition</h1>
 
 <h2>
 >Status: Developing ⚠️
 </h2>
+<img src="background_01.gif">
 
 Projeto inicial que envolve Arduino, Machine Leaning(TensorFlow) e Visão Computacional(OpenCV/mediapipe google). 
 
