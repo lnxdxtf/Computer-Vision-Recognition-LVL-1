@@ -61,7 +61,7 @@ Technologies Used:
 
 <h4>
 
->Open the folder my_hands_detector (Computer_Vision_Recognition_LVL1/my_hands_detector)
+>Open the folder hands_github (Computer_Vision_Recognition_LVL1/hands_github)
 
 >Run DetectHand_01.py
 
@@ -70,3 +70,4 @@ Technologies Used:
 >Just Run Now
 
 </h4>
+
