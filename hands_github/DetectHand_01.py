@@ -1,7 +1,7 @@
 import cv2
 import mediapipe as mp
 import time
-import my_modules.hand_tracking_module as htm
+from my_hand_modules import hand_tracking_module as htm
 
 #variaveis para calcular o fps
 fps_1_Time = 0
