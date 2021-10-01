@@ -1,26 +1,57 @@
 <h1>Computer Vision Recognition</h1>
+<h2>
+
+> Status: Developing ⚠️
+<img src = "images/develop.gif">
+
+</h2>
+
+<h2>Project Steps</h2>
+
+<h3>
+
+ 1. 📁  Develop .py modules :
+</h3>
+
+<h4>
+
+> * 📝 Detecion, Tracking Hands
+
+> * 📝 Face Detection, Face Mesh
+
+> * ⚠️ Possible Creation of New Modules(DEVELOPING)
+</h4>
+
+<h3>
+2. 📁 Develop code that read gestures ⚠️(NEXT STEP)
+</h3>
+
+
 
 <h2>
->Status: Developing ⚠️
+Technologies Used:
 </h2>
-<img src="background_01.gif">
 
-Projeto inicial que envolve Arduino, Machine Leaning(TensorFlow) e Visão Computacional(OpenCV/mediapipe google). 
+<h4>
 
-######  ✔️ significa como foi feito. :)
+>Python 3.7*
 
-Etapa 01- Desenvolver o código/módulo .py de reconhecimento e rastreamento das mãos;
+>TensorFlow
 
-  *Criar Módulo de detecção e rastreamento de mão, para facilitar no projeto final.
-  
-Etapa 02 - Desenvolver um código/módulo .py para estimar a posição;
-  *
+>OpenCV
 
-Etapa 03 - Desenvolver a estrutura física e eletrônica onde serão colocados os componentes do arduino;
-  *
+>MediaPipe(google)
 
-Etapa 04 - Desenvolver um outro código .py utilizando a biblioteca pyfirmata para compilar para o Arduino; 
-  *
+>⚠️Maybe a new technology
 
-Etapa 05 - Atribuir tarefas para serem executadas no arduino de acordo com os movimentos/objetos.
-  *
+</h4>
+
+
+<h2>Preview Code Running</h2>
+
+<img src = "images/detecçao_maogif.gif">
+
+
+
+
+<h1>⚠️CODE COMMENTED ON PORTUGUESE⚠️</h1>
