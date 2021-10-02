@@ -15,11 +15,13 @@
 
 <h4>
 
-> * 📝 Detecion, Tracking Hands
-
-> * 📝 Face Detection, Face Mesh
-
-> * ⚠️ Possible Creation of New Modules(DEVELOPING)
+> * 📝 ✔️ Detecion and Tracking Hands<br/>
+>
+> * 📝 🚧 (DEV) Detection,Tracking and Face Mesh<br/>
+>
+> * 📝 🚧 (DEV) Pose<br/>
+>
+> * ⚠️ Possible Creation of New Modules(DEVELOPING)<br/>
 </h4>
 
 <h3>
@@ -34,24 +36,34 @@ Technologies Used:
 
 <h4>
 
->Python 3.7*
-
->TensorFlow
-
->OpenCV
-
->MediaPipe(google)
-
->⚠️Maybe a new technology
+>
+>Python 3.7*<br/>
+>
+>TensorFlow<br/>
+>
+>OpenCV<br/>
+>
+>MediaPipe(google)<br/>
+>
+>Maybe a new technology⚠️</br>
+>
 
 </h4>
 
 
 <h2>Preview Code Running</h2>
 
+<h3>
+
+* Detect Hand
+
 <img src = "Images/detecçao_maogif.gif">
 
+* Pose
 
+<img src = "Images/pose_01.gif">
+
+</h3>
 
 
 <h1>⚠️CODE COMMENTED ON PORTUGUESE⚠️
@@ -60,15 +72,34 @@ Technologies Used:
 
 💻 How to Run: </h1>
 
+
+
+<h2>Detect Hand ✋ </h2>
+
 <h3>
 
->Open the folder hands_github 
-
->Run DetectHand_01 .py
-
->Set your Video Capture; Set 0 if you only have a webcam; Try 1+ if you have more than one
-
->Just Run Now
+>* Open the folder hands_github 
+>* Run DetectHand_01 .py
+>* Set your Video Capture; Set 0 if you only have a webcam; Try 1+ if you have more than one
+>* Just Run Now
 
 </h3>
+
+
+
+
+<h2>Pose 🦾 </h2>
+
+<h3>
+
+>* Open the folder pose_estimation
+>
+>* Set your Video Capture; Set 0 if you only have a webcam; Try 1+ if you have more than one
+>* You could also change the videos in the dir. In the variable 'v1'change the ending between 1.mp4 | 2.mp4 | 3.mp4 in the folder.
+>
+>* Just Run Now
+
+</h3>
+
+
 

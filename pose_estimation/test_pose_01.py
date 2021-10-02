@@ -6,9 +6,11 @@ import numpy as np
 fps_1 = 0 #previoustime
 fps_2 = 0 #currentytime
 
-v1 = 'C:/Users/gabri/Desktop/DEV/Projetos_GitHub/Computer_Vision_Recognition_LVL_1/pose_estimation/PoseVideos/1.mp4'
+v1 = 'C:/Users/gabri/Desktop/DEV/Projetos_GitHub/Computer_Vision_Recognition_LVL_1/pose_estimation/PoseVideos/3.mp4' 
+#mude o ultimo arquivo (1.mp4 | 2.mp4 | 3.mp4)
+#!!! ARRUMAR NO GIT !!!
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(v1)
 
 mpDraw = mp.solutions.drawing_utils
 mpPose = mp.solutions.pose
