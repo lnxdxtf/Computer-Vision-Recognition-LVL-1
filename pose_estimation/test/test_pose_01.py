@@ -23,18 +23,24 @@ while True:
     #converter img para o processo, pq mediapipe usa rgb e n bgr
     imgRGB = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
     
+
     #processo 
     results = pose.process(imgRGB) 
     """results.pose_landmarks     - para pegar o resultado x,y,z e a visibilidade.
     EX: print(results.pose_landmarks)
     """
     if results.pose_landmarks:
-        mpDraw.draw_landmarks(img, results.pose_landmarks, mpPose.POSE_CONNECTIONS)
+        mpDraw.draw_landmarks(img, results.pose_landmarks,
+                                mpPose.POSE_CONNECTIONS,
+                                mpDraw.DrawingSpec(color=(0,255,0), thickness=2,
+                                circle_radius=4),#pontos
+                                mpDraw.DrawingSpec(color=(255,0,0), thickness=2, circle_radius=4)#linhas
+                             )
         for id, points in enumerate(results.pose_landmarks.landmark): #lm = points
             alt,larg,c = img.shape
             print("ID:",id,"\n Points:\n",points)
             cx, cy = int(points.x * larg), int(points.y * alt)
-            cv2.circle(img,(cx,cy),5,(0,255,80),cv2.FILLED)
+            #cv2.circle(img,(cx,cy),5,(0,255,80),cv2.FILLED)
 
     #TELA/JANELA
     fps_2 = time.time()
@@ -49,3 +55,5 @@ while True:
 
     cv2.waitKey(1)
 
+cap.release()
+cv2.destroyAllWindows()
