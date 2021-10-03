@@ -36,6 +36,7 @@ while True:
                                 circle_radius=4),#pontos
                                 mpDraw.DrawingSpec(color=(255,0,0), thickness=2, circle_radius=4)#linhas
                              )
+                             
         for id, points in enumerate(results.pose_landmarks.landmark): #lm = points
             alt,larg,c = img.shape
             print("ID:",id,"\n Points:\n",points)
