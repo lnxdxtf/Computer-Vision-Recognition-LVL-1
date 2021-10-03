@@ -82,10 +82,10 @@ Technologies Used:
 >* Run DetectHand_01 .py
 >* Set your Video Capture; Set 0 if you only have a webcam; Try 1+ if you have more than one
 >* Just Run Now
+>
+><img src='hands_github/hand_pts.png'>
 
 </h3>
-
-
 
 
 <h2>Pose 🦾 </h2>
@@ -94,12 +94,14 @@ Technologies Used:
 
 >* Open the folder pose_estimation
 >
->* Set your Video Capture; Set 0 if you only have a webcam; Try 1+ if you have more than one
->* You could also change the videos in the dir. In the variable 'v1'change the ending between 1.mp4 | 2.mp4 | 3.mp4 in the folder.
+>* Set your Video Capture; v0 = 0 or v1 = dir to videos 
+>* You could also change the videos in the dir. In the variable 'v1'change the ending between 1.mp4 | 2.mp4 | 3.mp4 |4.mp4 | 5.mp4  in the folder.
 >
->* Just Run Now
+>* Just Run Now (Pose_Run.py)
+>
+><img src='pose_estimation/landmarks_pose.png'>
 
 </h3>
 
-
+<h2>Face Detection and Face Mesh (Developing)🚧 </h2>
 
