@@ -15,7 +15,7 @@
 
 <h4>
 
-> * 📝 ✔️ Detecion and Tracking Hands<br/>
+> * 📝 ✔️ Detection and Tracking Hands<br/>
 >
 > * 📝 ✔️   Face Detection  <br/>
 >
