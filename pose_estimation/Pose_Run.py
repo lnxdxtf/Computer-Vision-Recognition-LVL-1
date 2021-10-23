@@ -10,9 +10,10 @@ from my_pose_modules import pose_module as pm
 fps_1 = 0 #previoustime
 fps_2 = 0 #currentytime
 #'C:/Users/gabri/Desktop/DEV/Projetos_GitHub/Computer_Vision_Recognition_LVL_1/pose_estimation/PoseVideos/1.mp4'
-v1 =  'pose_estimation/PoseVideos/4.mp4' #1.mp4 | 2.mp4 | 3.mp4 |4.mp4 | 5.mp4
+#v1 =  '/pose_estimation/PoseVideos/4.mp4' #1.mp4 | 2.mp4 | 3.mp4 |4.mp4 | 5.mp4
+v1 =  './Videos/1.mp4' #1.mp4 | 2.mp4 | 3.mp4 |4.mp4 | 5.mp4
 v0 = 0 # troque v1 por v0 para webcam 
-cap = cv2.VideoCapture(v0)
+cap = cv2.VideoCapture(v1)
 
 detPose = pm.poseDetector()
 
