@@ -36,11 +36,15 @@ while True:
             bbox = int(bboxC.xmin * imgW), int(bboxC.ymin * imgH), \
                    int(bboxC.width * imgW), int(bboxC.height * imgH)
             cv2.rectangle(img,bbox, (0,0,255), 3)
+            cv2.putText(img, f"{int(detection.score[0] * 100)}%", (bbox[0],
+                        bbox[1]),cv2.FONT_HERSHEY_PLAIN, 1,(0,255,59), 2)
 
     #window///
     cTime = time.time() #cTime = current time 
     fps = 1/(cTime-pTime)
     pTime = cTime
+    #fps and score confidence bounding box
+    
     cv2.putText(img,str(int(fps)),(600,30),cv2.FONT_HERSHEY_PLAIN, 2,(0,255,59), 2)
     cv2.imshow("face_detect_img",img)
     cv2.waitKey(10) 
