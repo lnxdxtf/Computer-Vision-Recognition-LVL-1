@@ -19,7 +19,7 @@
 >
 > * 📝 🚧 (DEV) Detection,Tracking and Face Mesh<br/>
 >
-> * 📝 🚧 (DEV) Pose<br/>
+> * 📝 ✔️ (DEV) Pose<br/>
 >
 > * ⚠️ Possible Creation of New Modules(DEVELOPING)<br/>
 </h4>

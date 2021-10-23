@@ -50,7 +50,8 @@ class poseDetector():
                 if getPoints:
                     cv2.putText(img,str(int(id)),(cx+10,cy+10),cv2.FONT_HERSHEY_PLAIN,1,(0,255,255),1)
                     if getPrint:
-                        print(pointsList)
+                        print(f"=========================={id}============================\n"
+                        ,pointsList,"\n=======================================================")
                 # posso usar cx e cy como coordenadas para desenhar 
                 #cv2.circle(img,(cx,cy),5,(0,255,80),cv2.FILLED)
 
