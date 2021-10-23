@@ -63,14 +63,20 @@ Technologies Used:
 
 <img src = "Images/pose_01.gif">
 
+* Face
+
+<img src ="Images/face_detect.gif">
+
 </h3>
 
+#
 
-<h1>⚠️CODE COMMENTED ON PORTUGUESE⚠️
+<h1>⚠️CODE COMMENTED ON PORTUGUESE⚠️</h1>
 
->
 
-💻 How to Run: </h1>
+
+
+<h1>💻 How to Run: </h1>
 
 
 
@@ -79,7 +85,7 @@ Technologies Used:
 <h3>
 
 >* Open the folder hands_github 
->* Run DetectHand_01 .py
+>* Run DetectHand_01.py
 >* Set your Video Capture; Set 0 if you only have a webcam; Try 1+ if you have more than one
 >* Just Run Now
 >
@@ -103,5 +109,13 @@ Technologies Used:
 
 </h3>
 
-<h2>Face Detection and Face Mesh (Developing)🚧 </h2>
+<h2>Face Detection 😀</h2>
+
+<h3>
+
+>* Open the folder face_detection
+>* RUN FaceDetectionRun.py
+>* v0 to your web cam and v1 to choose videos
+
+</h3>
 

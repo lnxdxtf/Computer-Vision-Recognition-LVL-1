@@ -52,26 +52,26 @@ class FaceDetector():
         return img
 
 ##/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=
-# def main():
-#     v1 = "./Videos/4.mp4"
-#     v0 = 0
-#     cap = cv2.VideoCapture(v1)
-#     pTime = 0
-#     #creating object
-#     detector = FaceDetector()
+def main():
+    v1 = "./Videos/6.mp4"
+    v0 = 0
+    cap = cv2.VideoCapture(v1)
+    pTime = 0
+    #creating object
+    detector = FaceDetector()
 
-#     while True:
-#         success, img = cap.read()
-#         img , bboxs = detector.findFaces(img)
+    while True:
+        success, img = cap.read()
+        img , bboxs = detector.findFaces(img)
 
-#         cTime = time.time() #cTime = current time 
-#         fps = 1/(cTime-pTime)
-#         pTime = cTime
-#         cv2.putText(img,str(int(fps)),(600,30),cv2.FONT_HERSHEY_PLAIN, 2,(0,0,255), 2)
-#         cv2.imshow("face_detect_img",img)
-#         cv2.waitKey(1) 
+        cTime = time.time() #cTime = current time 
+        fps = 1/(cTime-pTime)
+        pTime = cTime
+        cv2.putText(img,str(int(fps)),(600,30),cv2.FONT_HERSHEY_PLAIN, 2,(0,0,255), 2)
+        cv2.imshow("face_detect_img",img)
+        cv2.waitKey(20) 
 
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()
 
