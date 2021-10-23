@@ -17,9 +17,11 @@
 
 > * 📝 ✔️ Detecion and Tracking Hands<br/>
 >
-> * 📝 🚧 (DEV) Detection,Tracking and Face Mesh<br/>
+> * 📝 ✔️   Face Detection  <br/>
 >
-> * 📝 ✔️ (DEV) Pose<br/>
+> * 📝 🚧 (DEV) Face Mesh<br/> 
+>
+> * 📝 ✔️ Pose<br/> 
 >
 > * ⚠️ Possible Creation of New Modules(DEVELOPING)<br/>
 </h4>
