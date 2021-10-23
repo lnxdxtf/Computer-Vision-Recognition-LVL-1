@@ -26,11 +26,6 @@
 > * ⚠️ Possible Creation of New Modules(DEVELOPING)<br/>
 </h4>
 
-<h3>
-2. 📁 Develop code that read gestures ⚠️(NEXT STEP)
-</h3>
-
-
 
 <h2>
 Technologies Used:
